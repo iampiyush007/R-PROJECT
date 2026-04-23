@@ -1,7 +1,8 @@
-library(dplyr)
-library(ggplot2)
-library(forecast)
-library(car)
-library(lubridate)
-library(shiny)
-library(dplyr)
+library(dplyr)-  Used for filtering, grouping, summarizing and transforming data. Think of it as Excel formulas but in R.
+library(ggplot2)- Used to create all the charts — bar plots, histograms, box plots, heatmaps, pie charts etc.
+library(forecast)- Used to predict future trends based on historical data — like predicting future delivery times or order volumes over time.
+library(car)- Stands for Companion to Applied Regression. Used for advanced statistical tests like checking assumptions in regression models.
+library(lubridate)- Makes working with dates/times easy in R. Used here to extract the hour from order timestamps (hour() function) to find peak ordering times
+library(shiny)-Used to build the interactive Food Delivery Analytics Dashboard you saw — the one with the age filter slider that updates the plot in real time.
+
+
